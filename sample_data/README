@@ -1,0 +1,67 @@
+DATA
+============================================================================
+
+Filene inneholder 5791 anonyme rangeringer av omtrent 500 filmer
+laget av 200 brukere. 
+
+RANGERING FIL BESKRIVELSE
+============================================================================
+
+Alle rangeringer er inneholdt i filen "rangering.csv" og er i
+følgende format:
+
+- BrukerID mellom 1 og 300 
+- FilmID mellom 1 og 500
+- Rangeringer er i en 5-stjerners skala (kun hele stjerners ratings)
+- Tidstempel er representert i sekunder siden 01.01.1970.
+
+BRUKER FIL BESKRIVELSE
+============================================================================
+
+Bruker informasjon er i filen "bruker.csv". All demografisk informasjon 
+blir gitt frivillig av brukerne og er ikke sjekket for nøyaktighet. Bare 
+brukere som har oppgitt noe demografisk informasjon er inkludert i dette 
+datasettet.
+
+- Kjønn er er betegnet med en "M" for hann og "F" for hunn
+- Alder er delt i følgende områder:
+
+	*  1:  "Under 18"
+	* 18:  "18-24"
+	* 25:  "25-34"
+	* 35:  "35-44"
+	* 45:  "45-49"
+	* 50:  "50-55"
+	* 56:  "56+"
+
+- Yrke er valgt fra følgende valg:
+
+	*  0:  "annet" eller ikke spesifisert
+	*  1:  "akademisk/pedagog"
+	*  2:  "kunstner"
+	*  3:  "administrativt"
+	*  4:  "student"
+	*  5:  "kundeservice"
+	*  6:  "helse"
+	*  7:  "ledende"
+	*  8:  "bonde"
+	*  9:  "hjemmeværende"
+	* 10:  "elev"
+	* 11:  "advokat"
+	* 12:  "programmerer"
+	* 13:  "pensjonert"
+	* 14:  "salg/markedsføring"
+	* 15:  "forsker"
+	* 16:  "selvstendig næringsdrivende"
+	* 17:  "tekniker/ingeniør"
+	* 18:  "håndverker"
+	* 19:  "arbeidsledig"
+	* 20:  "forfatter"
+
+FILM FIL BESKRIVELSE
+============================================================================
+
+Film informasjon er lagret i filen "film.csv"
+
+- Titler er identiske med titler levert av IMDB (inkludert utgivelsesår)
+- Sjangre er indikatorvariabler for alle filmene
