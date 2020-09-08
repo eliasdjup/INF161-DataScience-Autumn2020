@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 n = 100
 p = 0.3
 num_samples = 100000
-
 # Sample from a binomial distribution
 samples = np.random.binomial(n, p, size=num_samples)
 samples_rounded = np.round(samples)
