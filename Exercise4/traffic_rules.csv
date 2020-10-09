@@ -1,0 +1,97 @@
+,Type,Traffic Light,Pass
+0,Normal Vehicle,Red,No
+1,Normal Vehicle,Yellow,No
+2,Ambulance,Red,Yes
+3,Police,Red,Yes
+4,Normal Vehicle,Green,Yes
+5,Normal Vehicle,Green,Yes
+6,Ambulance,Yellow,Yes
+7,Police,Yellow,Yes
+8,Normal Vehicle,Red,No
+9,Normal Vehicle,Yellow,No
+10,Ambulance,Green,Yes
+11,Police,Green,Yes
+12,Normal Vehicle,Red,No
+13,Normal Vehicle,Yellow,No
+14,Ambulance,Red,Yes
+15,Police,Red,Yes
+16,Normal Vehicle,Green,Yes
+17,Normal Vehicle,Green,Yes
+18,Ambulance,Yellow,Yes
+19,Police,Yellow,Yes
+20,Normal Vehicle,Red,No
+21,Normal Vehicle,Yellow,No
+22,Ambulance,Green,Yes
+23,Police,Green,Yes
+24,Normal Vehicle,Red,No
+25,Normal Vehicle,Yellow,No
+26,Ambulance,Red,Yes
+27,Police,Red,Yes
+28,Normal Vehicle,Green,Yes
+29,Normal Vehicle,Green,Yes
+30,Ambulance,Yellow,Yes
+31,Police,Yellow,Yes
+32,Normal Vehicle,Red,No
+33,Normal Vehicle,Yellow,No
+34,Ambulance,Green,Yes
+35,Police,Green,Yes
+36,Normal Vehicle,Red,No
+37,Normal Vehicle,Yellow,No
+38,Ambulance,Red,Yes
+39,Police,Red,Yes
+40,Normal Vehicle,Green,Yes
+41,Normal Vehicle,Green,Yes
+42,Ambulance,Yellow,Yes
+43,Police,Yellow,Yes
+44,Normal Vehicle,Red,No
+45,Normal Vehicle,Yellow,No
+46,Ambulance,Green,Yes
+47,Police,Green,Yes
+48,Normal Vehicle,Red,No
+49,Normal Vehicle,Yellow,No
+50,Ambulance,Red,Yes
+51,Police,Red,Yes
+52,Normal Vehicle,Green,Yes
+53,Normal Vehicle,Green,Yes
+54,Ambulance,Yellow,Yes
+55,Police,Yellow,Yes
+56,Normal Vehicle,Red,No
+57,Normal Vehicle,Yellow,No
+58,Ambulance,Green,Yes
+59,Police,Green,Yes
+60,Normal Vehicle,Red,No
+61,Normal Vehicle,Yellow,No
+62,Ambulance,Red,Yes
+63,Police,Red,Yes
+64,Normal Vehicle,Green,Yes
+65,Normal Vehicle,Green,Yes
+66,Ambulance,Yellow,Yes
+67,Police,Yellow,Yes
+68,Normal Vehicle,Red,No
+69,Normal Vehicle,Yellow,No
+70,Ambulance,Green,Yes
+71,Police,Green,Yes
+72,Normal Vehicle,Red,No
+73,Normal Vehicle,Yellow,No
+74,Ambulance,Red,Yes
+75,Police,Red,Yes
+76,Normal Vehicle,Green,Yes
+77,Normal Vehicle,Green,Yes
+78,Ambulance,Yellow,Yes
+79,Police,Yellow,Yes
+80,Normal Vehicle,Red,No
+81,Normal Vehicle,Yellow,No
+82,Ambulance,Green,Yes
+83,Police,Green,Yes
+84,Normal Vehicle,Red,No
+85,Normal Vehicle,Yellow,No
+86,Ambulance,Red,Yes
+87,Police,Red,Yes
+88,Normal Vehicle,Green,Yes
+89,Normal Vehicle,Green,Yes
+90,Ambulance,Yellow,Yes
+91,Police,Yellow,Yes
+92,Normal Vehicle,Red,No
+93,Normal Vehicle,Yellow,No
+94,Ambulance,Green,Yes
+95,Police,Green,Yes
