@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Data Science API</title>
+  </head>
+
+  <body>
+    <div class='login'>
+      <h1>Predict house price</h1>
+
+      <form action="{{url_for('predict')}}" method='post'>
+	<input type='text' name='size' placeholder='Size (in m2)' required='required' />
+	<input type='text' name='bedrooms' placeholder='Bedrooms' required='required' />
+	<input type='text' name='floor' placeholder='Floor'/>
+
+	<button type='submit' class='btn btn-primary btn-block btn-large'>Predict</button>
+      </form>
+
+      <br>
+      {{prediction_text}}
+
+    </div>
+  </body>
+</html>
