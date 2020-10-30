@@ -30,6 +30,7 @@ def predict():
             return float(value)
         except:
             return np.nan
+
     features = {key: numeric_features(value) for key, value in features.items()}
 
     # prepare for prediction
