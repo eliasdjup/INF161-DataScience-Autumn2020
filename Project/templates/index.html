@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Data Science API</title>
+    <title>Movie recommender INF161</title>
   </head>
 
-  <body>
-    <div class='login'>
-      <h1>Movie recommendation</h1>
+  <body style="background-color: aqua">
+    <div class='login' style="margin: auto">
+      <h1 style="color:navy;text-align:center;"> Movie recommendation</h1>
 
-      <form action="{{url_for('predict')}}" method='post'>
-	<input type='text' name='UserID' placeholder='User to reccomend movies for' required='required' />
-	<input type='text' name='bedrooms' placeholder='Bedrooms' required='required' />
-	<input type='text' name='floor' placeholder='Floor'/>
+      <form action="{{url_for('predict')}}" method='post' style="margin: auto">
+	<input type='number' name='UserID' placeholder='UserID' required='required' min="0" max="6040" style="margin: auto"/>
+        <br>
+	<input type="radio" id="model1" name="model" value="model1" required='required' style="margin: auto">
+    <label style="margin: auto" for="model1"> Based on what you like </label>
+    <input style="margin: auto" type="radio" id="model2" name="model" value="model2">
+    <label style="margin: auto" for="model2"> Based on what others like</label><br>
 
-	<button type='submit' class='btn btn-primary btn-block btn-large'>Predict</button>
+	<button style="margin: auto" type='submit' class='btn btn-primary btn-block btn-large'>Predict</button>
       </form>
 
       <br>
-      {{prediction_text}}
+
+      {{prediction_text |safe }}
 
     </div>
   </body>
